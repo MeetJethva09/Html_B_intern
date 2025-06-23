@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Application Form</title>
+</head>
+<body>
+    <h1>Job Application Form</h1>
+    
+    <form action="/submit" method="post" enctype="multipart/form-data">
+        <!-- Personal Information -->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="fullname">Full Name: *</label><br>
+            <input type="text" id="fullname" name="fullname" required maxlength="50"><br><br>
+
+            <label for="email">Email: *</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890"><br><br>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <label for="website">Portfolio Website:</label><br>
+            <input type="url" id="website" name="website"><br><br>
+        </fieldset>
+
+        <!-- Job Information -->
+        <fieldset>
+            <legend>Job Information</legend>
+
+            <label for="position">Position Applied For: *</label><br>
+            <select id="position" name="position" required>
+                <option value="">--Select--</option>
+                <option value="frontend">Frontend Developer</option>
+                <option value="backend">Backend Developer</option>
+                <option value="designer">Designer</option>
+            </select><br><br>
+
+            <label>Employment Type:</label><br>
+            <input type="radio" id="fulltime" name="employment" value="fulltime" required>
+            <label for="fulltime">Full-time</label><br>
+
+            <input type="radio" id="parttime" name="employment" value="parttime">
+            <label for="parttime">Part-time</label><br>
+
+            <input type="radio" id="internship" name="employment" value="internship">
+            <label for="internship">Internship</label><br><br>
+
+            <label for="experience">Years of Experience:</label><br>
+            <input type="number" id="experience" name="experience" min="0" max="40"><br><br>
+        </fieldset>
+
+        <!-- Skills & Resume -->
+        <fieldset>
+            <legend>Skills & Resume</legend>
+
+            <label>Skills:</label><br>
+            <input type="checkbox" id="html" name="skills" value="HTML">
+            <label for="html">HTML</label><br>
+
+            <input type="checkbox" id="css" name="skills" value="CSS">
+            <label for="css">CSS</label><br>
+
+            <input type="checkbox" id="js" name="skills" value="JavaScript">
+            <label for="js">JavaScript</label><br><br>
+
+            <label for="resume">Upload Resume (PDF only):</label><br>
+            <input type="file" id="resume" name="resume" accept=".pdf"><br><br>
+
+            <label for="coverletter">Cover Letter:</label><br>
+            <textarea id="coverletter" name="coverletter" rows="5" cols="40" placeholder="Write your message here..."></textarea><br><br>
+        </fieldset>
+
+        <input type="submit" value="Submit Application">
+        <input type="reset" value="Reset Form">
+    </form>
+</body>
+</html>

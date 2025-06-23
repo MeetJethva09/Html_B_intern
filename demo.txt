@@ -1,0 +1,122 @@
+amazon : 
+    website build : 
+        3 phase : 
+            1 : frontend
+            2 : backend
+            3 : database
+website ?
+    The collection of multiple webpages..
+
+
+frontEnd : 
+
+    Html , css , js , react ,angular 
+
+backEnd : 
+    programming languages : 
+        python , javascript , java 
+    framework : 
+        djnago/flask , Nodejs, springboot/hibernet
+
+database : 
+    database type : 
+        2:
+            SQL                           NOSQL
+        - Structure q languages        no Structure q languages
+                                        data store : objects     
+        - data store in form 
+          of Tables
+
+HTML : 
+    Hyper Text Markup Lnaguage
+USE OF HTML : 
+    To build a website Structure
+
+Founder of html : 
+    Tim berner's Lee
+
+
+HTML 5 version:
+    html 1 --> 1991
+    html 2 --> 1995
+    html 3 --> 1997 (Failure , jan ,feb)
+    html 4 --> 1997 (success , dec)
+    html 5 --> 2014 , html 5.2 -> 2017
+
+
+html website first = > 1993:
+    www.info.cern.ch
+
+HTML Structure : 
+    multiple tags : <> : angular brackets
+
+    structure of html :
+    
+        <html>
+            <head>
+                <tittle></title>
+            </head>
+
+            <body>
+            </body>
+
+        </html>
+
+index.html : =>
+    format : filename.extension
+
+to display some context : 
+    tags : <h1> to <h6>
+
+    <SUB> <SUP>
+<sub> : subscript
+<sup> superscript
+<br> : break rule
+
+em vs i : 
+i => normal html tags
+em = > is the sematic html tags
+
+b => normal htl tags
+strong = > sematic html tags
+
+
+Html  Boiler PLate : !
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+link <a> tag : 
+    navigatte to multiple related pages in html
+
+attributes : 
+    a attributes define as the some addtional inforamation about the tag
+
+href > a :
+    href full form : Hyper Reference : link own 
+
+* List : 
+    types of lists in html :    
+        1 : order lists 
+        2 : Unorder lists
+
+table attributes : border , cellpadding , cellspacing , colsapn , rowspan
+src : source
+
+
+some additional information about the tag ? Ans => Attribute
+
+there are two types of tag : 
+    1 = opening closing tags
+    2 = only opening / selfclosing tags
