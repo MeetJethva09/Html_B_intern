@@ -2,4 +2,48 @@ HTML :
     Hyper text markup language
 
 => latest version of html :
-        
+        html 5
+=> src full form :
+    source
+=> href : 
+    hyper reference
+=> alt :
+    alternet
+=> How many attribute in <img> ?
+    src=" " , alt=" "
+=> how to browse audio in browser ? 
+
+    <audio loop autoplay muted controls>
+            <source src="audio_path" type="audio type" />
+    </audio>
+
+=> how to browse video in browser ? 
+    <video height="" width="" loop autoplay muted controls>
+
+            <source src="video_path"  type=""/>
+
+    </video>
+
+=> tr : table row
+=> td : table data
+=> th : table head
+=> colspan : merge the collumn 
+=> rowspan : merge the rows
+
+=> br : break rule
+=> hr : Horizontal rule
+
+input types : 
+=> text
+=> email
+=> password
+=> radio
+=> submit
+=> reset
+=> date
+=> number
+=> date-time
+=> time
+=> month
+=> file
+=> range

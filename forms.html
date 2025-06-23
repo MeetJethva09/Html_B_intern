@@ -6,36 +6,38 @@
     <title>Document</title>
 </head>
 <body>
-    <table border="3" cellpadding="10">
 
-            <thead>
+    <fieldset>     
 
-                    <th>Field</th>
-                    <th>Input types</th>
+            <legend>Login Form</legend>
 
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Name</td>
-                    <td><input type="text"></td>
-                </tr>
-                <tr>
-                    <td>Email</td>
-                    <td><input type="email"></td>
-                </tr>
-                <tr>
-                    <td>Password</td>
-                    <td><input type="password"></td>
-                </tr>
-                <tr>
-                    <td>Age</td>
-                    <td><input type="number"></td>
-                </tr>
-                <tr>
-                    <td colspan="2"><center><input type="submit"></center></td>
-                </tr>
-            </tbody>
+    <form action="">
 
-    </table>
+            <label>
+                Name <input type="text" required>
+            </label><br><br>
+
+            <label>
+                Email <input type="email">
+            </label><br><br>
+
+            <label>
+                password <input type="password" placeholder="Password">
+            </label><br><br>
+
+
+            <label>
+                Address : 
+                <textarea>
+
+                </textarea>
+            </label><br><br>
+            
+            
+            <input type="submit">
+            
+    </form>
+
+    </fieldset>
 </body>
 </html>
