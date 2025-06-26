@@ -47,3 +47,72 @@ input types :
 => month
 => file
 => range
+
+Block & Inline Element in Html : 
+    Block = Block Element is the type of element that occupie the whole width
+    Inline = Inline element is the type of element that occupie only it's own width...
+
+Block Element : 
+address
+| Tag              | Description        |
+| ---------------- | ------------------ |
+| `<div>`          | Generic container  |
+| `<p>`            | Paragraph          |
+| `<h1>` to `<h6>` | Headings           |
+| `<ul>`           | Unordered list     |
+| `<ol>`           | Ordered list       |
+| `<li>`           | List item          |
+| `<table>`        | Table              |
+| `<tr>`           | Table row          |
+| `<td>`           | Table cell         |
+| `<header>`       | Header section     |
+| `<footer>`       | Footer section     |
+| `<section>`      | Section of content |
+| `<article>`      | Article content    |
+| `<nav>`          | Navigation links   |
+| `<form>`         | Form               |
+
+
+
+Inline :
+| Tag        | Description                    |
+| ---------- | ------------------------------ |
+| `<span>`   | Generic inline container       |
+| `<a>`      | Anchor (link)                  |
+| `<img>`    | Image                          |
+| `<strong>` | Important (bold) text          |
+| `<em>`     | Emphasized (italic) text       |
+| `<b>`      | Bold text (without importance) |
+| `<i>`      | Italic text (without emphasis) |
+| `<u>`      | Underlined text                |
+| `<small>`  | Smaller text                   |
+| `<mark>`   | Highlighted text               |
+| `<abbr>`   | Abbreviation                   |
+| `<code>`   | Code snippet                   |
+| `<br>`     | Line break                     |
+| `<input>`  | Input field                    |
+| `<label>`  | Label for input                |
+| `<sub>`    | Subscript                      |
+| `<sup>`    | Superscript                    |
+
+
+Methods OF Forms : 
+    GET
+    POST
+
+GET : 
+    GET Method is used to send data to another page or another backend files....
+    POST Methidd is used to send data to another page or another backend files.....
+
+GET : Shows the user data on Browser URL
+POST : Do not show the user data on URL.
+
+<form acttion="" methods="">
+</form>
+
+action : To include the backend file or Backend routes (data.php , userdata.js , backdata.java)
+
+methods : GET , POST , get ,post (GET,POST)
+
+
+? : Query Parameter
