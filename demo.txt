@@ -119,4 +119,4 @@ some additional information about the tag ? Ans => Attribute
 
 there are two types of tag : 
     1 = opening closing tags
-    2 = only opening / selfclosing tags
+    2 = only opening / selfclosing tags 
