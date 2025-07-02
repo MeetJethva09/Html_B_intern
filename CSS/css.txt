@@ -1,0 +1,42 @@
+Introduce CSS:
+    Cascading style sheet
+
+mainly css has Three types:
+    1 => Internel CSS
+    2 => Inline CSS
+    3 => Externel CSS
+
+What is use of CSS ?
+    CSS is the mainly use for designing and styling the html documents and
+    also responsible for creating responsive layouts with colors.
+
+1 => Inline CSS
+    Inline css is the css that written in HTML tags..
+
+<div style="color:"red"; ">Hello</div>
+
+2 => Internel CSS
+    Internel CSS is the css that written in html document
+    within a <style> tag.
+
+What is the Selectors in css ?
+4 Selectors in css:
+-------------------------
+        1 => Class Selector (.)
+        2 => Id Selector (#)
+        3 => Tag Selector (p,img,em,i,b,pre)
+        4 => Universel Selector (*)
+
+Universel Selector : 
+    Universel Selector Is the apply whole html Document..
+
+Externel CSS : 
+    Externel css is the css that written in another file 
+    and this file saved with .css Extension and link 
+    the html file..
+
+
+rel = "Stylesheets"
+rel : Relation
+
+    

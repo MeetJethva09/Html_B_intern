@@ -116,3 +116,60 @@ methods : GET , POST , get ,post (GET,POST)
 
 
 ? : Query Parameter
+
+
+Some additional information about the tag
+
+semantic Html : 
+    that Tag that known as browser and human also understand this tags
+    and that meaning well define
+
+<aside>
+<section>
+<nav>
+<header>
+<footer>
+<main>
+<article>
+<time>
+<ffooter>
+
+<h1> to <h6>
+i
+img
+b
+em
+strong
+p
+pre
+marquee
+mark
+audio
+video
+source
+a
+ol
+ul
+li
+table
+tbody
+thead
+tr
+td
+th
+form
+input
+hr
+br
+s
+sup
+sub
+select
+option
+textarea
+label
+legend
+fieldset
+font (size,colr)
+
+
