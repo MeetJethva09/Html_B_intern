@@ -39,4 +39,11 @@ Externel CSS :
 rel = "Stylesheets"
 rel : Relation
 
+Font styles :
+px : Pixels
+
+
+<div> : Division 
+ to divide the webpages
+
     
