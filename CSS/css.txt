@@ -46,4 +46,18 @@ px : Pixels
 <div> : Division 
  to divide the webpages
 
+borders :
+border-width:2px;
+border-style:solid;
+border-color:red;
+
+single line property : Short Hand Prperties;
+
+* outline : To create a outer border...
+
+{class , Id}
+
+* margin : to give a outer space
+* padding : to give a inner space 
+
     
